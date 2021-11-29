@@ -1,0 +1,16 @@
+{
+  "name": "javascript-modules-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx webpack --color --progress",
+    "watch": "npx webpack --color --progress --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
